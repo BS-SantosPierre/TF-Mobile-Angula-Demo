@@ -1,0 +1,13 @@
+.red {
+  color: red;
+}
+
+.container {
+  p {
+    color: lime;
+  }
+
+  &:hover {
+    background-color: cornflowerblue;
+  }
+}
