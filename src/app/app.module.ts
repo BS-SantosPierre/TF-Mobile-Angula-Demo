@@ -13,6 +13,8 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { Demo2Component } from './demos/demo2/demo2.component';
 import { FormsModule } from '@angular/forms';
+import { Exo1Component } from './exos/exo1/exo1.component';
+import { Demo3Component } from './demos/demo3/demo3.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { FormsModule } from '@angular/forms';
     NavbarComponent,
     AboutComponent,
     ContactComponent,
-    Demo2Component
+    Demo2Component,
+    Exo1Component,
+    Demo3Component
   ],
   imports: [
     BrowserModule,

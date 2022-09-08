@@ -1,0 +1,12 @@
+<h1 [ngStyle]="{'color': color}">My awesome Title</h1>
+
+<button (click)="resetColor()" [disabled]="color === 'black'">Reset</button>
+<button (click)="changeColor('blue')" [disabled]="color === 'blue'">Blue</button>
+<button (click)="changeColor('red')" [disabled]="color === 'red'">Red</button>
+<button (click)="changeColor('green')" [disabled]="color === 'green'">Green</button>
+
+<!-- METHODE TRES COURTE -->
+<!-- <button (click)="color = 'black'" [disabled]="color === 'black'">Reset</button>
+<button (click)="color = 'blue'" [disabled]="color === 'blue'">Blue</button>
+<button (click)="color = 'red'" [disabled]="color === 'red'">Red</button>
+<button (click)="color = 'green'" [disabled]="color === 'green'">Green</button> -->
