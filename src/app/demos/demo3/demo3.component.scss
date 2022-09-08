@@ -1,0 +1,27 @@
+.transition-title {
+  transition: all .5s ease-in-out;
+  animation: blink .5s infinite;
+}
+
+.myClass {
+  border: 3px dotted blue;
+  color: green;
+  font-size: 35px;
+  cursor: pointer;
+
+  &:hover{
+    background-color: yellow;
+    color: red;
+    border: 3px double black;
+  }
+}
+
+@keyframes blink{
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

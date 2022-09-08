@@ -12,6 +12,8 @@ export class Demo3Component implements OnInit {
   isItalic = false;
   isBig = false;
 
+  isActive = false;
+
   constructor() { }
 
   ngOnInit(): void {

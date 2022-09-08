@@ -1,5 +1,17 @@
+<h3>Directives Style/Class</h3>
+
+<h4>NgStyle</h4>
+
 <p [ngStyle]="currentStyle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis natus, doloribus quod voluptate atque.</p>
 
 <button (click)="toggleBold()">Bold</button>
 <button (click)="toggleItalic()">Italic</button>
 <button (click)="toggleSize()">Big</button>
+
+<hr>
+
+<h4>NgClass</h4>
+
+<p class="transition-title" [ngClass]="{ 'myClass': isActive }">Lorem ipsum dolor sit amet consectetur.</p>
+
+<button (click)="isActive = !isActive">Toggle Active</button>
