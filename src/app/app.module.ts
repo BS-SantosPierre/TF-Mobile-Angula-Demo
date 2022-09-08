@@ -11,6 +11,8 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { Demo2Component } from './demos/demo2/demo2.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,11 +24,13 @@ import { ContactComponent } from './contact/contact.component';
     HomeComponent,
     NavbarComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    Demo2Component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,27 @@
+<h2>Demo 2 - Binding</h2>
+
+<p>{{ message }}</p>
+<!-- <p>{{ secretMessage }}</p> -->
+
+<button (click)="updateMessage()">Click Me</button>
+
+
+<button (click)="toggleActive()">{{ isActive ? 'desactivé' : 'activé' }}</button>
+
+
+<button [disabled]="!isActive">Envoyer</button>
+
+
+<h3>Two Way Binding</h3>
+
+<input type="text" [(ngModel)]="name">
+
+<p>{{ name }}</p>
+
+
+<h3>Directives - Ng Style</h3>
+
+<p [ngStyle]="{ 'font-size.px': fontSize }">{{ message }}</p>
+
+<button (click)="incrementFontSize()">Size +</button>
+<button (click)="decrementFontSize()">Size -</button>
