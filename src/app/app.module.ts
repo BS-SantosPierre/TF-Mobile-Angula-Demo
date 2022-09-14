@@ -18,6 +18,8 @@ import { Demo3Component } from './demos/demo3/demo3.component';
 import { Exo2Component } from './exos/exo2/exo2.component';
 import { Demo4Component } from './demos/demo4/demo4.component';
 import { LoginComponent } from './demos/login/login.component';
+import { DemoPipesComponent } from './demos/demo-pipes/demo-pipes.component';
+import { ToFahrenheitPipe } from './pipes/to-fahrenheit.pipe';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { LoginComponent } from './demos/login/login.component';
     Demo3Component,
     Exo2Component,
     Demo4Component,
-    LoginComponent
+    LoginComponent,
+    DemoPipesComponent,
+    ToFahrenheitPipe
   ],
   imports: [
     BrowserModule,
