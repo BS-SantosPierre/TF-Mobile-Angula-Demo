@@ -7,6 +7,7 @@ import { Demo1Component } from './demos/demo1/demo1.component';
 import { Demo2Component } from './demos/demo2/demo2.component';
 import { Demo3Component } from './demos/demo3/demo3.component';
 import { Demo4Component } from './demos/demo4/demo4.component';
+import { ReactiveFormDemoComponent } from './demos/reactive-form-demo/reactive-form-demo.component';
 import { Exo1Component } from './exos/exo1/exo1.component';
 import { HomeComponent } from './home/home.component';
 
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'demo3', component: Demo3Component },
   { path: 'demo4', component: Demo4Component },
   { path: 'demo-pipes', component: DemoPipesComponent },
+  { path: 'demo-form', component: ReactiveFormDemoComponent },
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'contact' , component: ContactComponent },

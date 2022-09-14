@@ -12,7 +12,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { Demo2Component } from './demos/demo2/demo2.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Exo1Component } from './exos/exo1/exo1.component';
 import { Demo3Component } from './demos/demo3/demo3.component';
 import { Exo2Component } from './exos/exo2/exo2.component';
@@ -20,6 +20,7 @@ import { Demo4Component } from './demos/demo4/demo4.component';
 import { LoginComponent } from './demos/login/login.component';
 import { DemoPipesComponent } from './demos/demo-pipes/demo-pipes.component';
 import { ToFahrenheitPipe } from './pipes/to-fahrenheit.pipe';
+import { ReactiveFormDemoComponent } from './demos/reactive-form-demo/reactive-form-demo.component';
 
 @NgModule({
   declarations: [
@@ -39,12 +40,14 @@ import { ToFahrenheitPipe } from './pipes/to-fahrenheit.pipe';
     Demo4Component,
     LoginComponent,
     DemoPipesComponent,
-    ToFahrenheitPipe
+    ToFahrenheitPipe,
+    ReactiveFormDemoComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

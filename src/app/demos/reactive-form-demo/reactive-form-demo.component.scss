@@ -1,0 +1,16 @@
+.error-message {
+  margin: 0;
+  margin: 1px;
+  color: red;
+  font-size: 12px;
+}
+
+.error-input {
+  color: red;
+  border: red solid 1px;
+}
+
+.error-input:focus {
+  border: red solid 1px;
+  outline: none;
+}
