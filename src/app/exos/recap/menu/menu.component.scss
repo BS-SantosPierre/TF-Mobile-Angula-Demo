@@ -1,0 +1,27 @@
+.icon {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+
+.menu-container {
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+  background-color: white;
+  top: 0px;
+  left: 30px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid grey;
+  border-radius: 8px;
+
+  box-shadow: 1px 3px 2px rgba($color: #000000, $alpha: 0.2);
+
+  li {
+    padding: 5px;
+    list-style: none;
+  }
+}

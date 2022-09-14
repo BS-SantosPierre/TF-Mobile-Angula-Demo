@@ -21,6 +21,9 @@ import { LoginComponent } from './demos/login/login.component';
 import { DemoPipesComponent } from './demos/demo-pipes/demo-pipes.component';
 import { ToFahrenheitPipe } from './pipes/to-fahrenheit.pipe';
 import { ReactiveFormDemoComponent } from './demos/reactive-form-demo/reactive-form-demo.component';
+import { RecapComponent } from './exos/recap/recap.component';
+import { SpoilComponent } from './exos/recap/spoil/spoil.component';
+import { MenuComponent } from './exos/recap/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +45,9 @@ import { ReactiveFormDemoComponent } from './demos/reactive-form-demo/reactive-f
     DemoPipesComponent,
     ToFahrenheitPipe,
     ReactiveFormDemoComponent,
+    RecapComponent,
+    SpoilComponent,
+    MenuComponent,
   ],
   imports: [
     BrowserModule,

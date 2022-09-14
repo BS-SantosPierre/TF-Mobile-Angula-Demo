@@ -9,6 +9,7 @@ import { Demo3Component } from './demos/demo3/demo3.component';
 import { Demo4Component } from './demos/demo4/demo4.component';
 import { ReactiveFormDemoComponent } from './demos/reactive-form-demo/reactive-form-demo.component';
 import { Exo1Component } from './exos/exo1/exo1.component';
+import { RecapComponent } from './exos/recap/recap.component';
 import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'contact' , component: ContactComponent },
   { path: 'exo1' , component: Exo1Component },
+  { path: 'exo-recap' , component: RecapComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
 ];
 

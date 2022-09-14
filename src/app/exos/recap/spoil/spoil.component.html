@@ -1,0 +1,14 @@
+<h2>Spoil Alert</h2>
+
+<!-- <button (click)="isSpoil = !isSpoil"></button> -->
+<button (click)="toggleSpoil()">
+  <!-- {{ isSpoil ? 'Cacher' : 'Spoil' }} -->
+  <!-- Si Spoil est à true affiche cacher -->
+  <span *ngIf="isSpoil">Cacher</span>
+  <!-- Si Spoil est à false affiche spoil -->
+  <span *ngIf="!isSpoil">Spoil</span>
+</button>
+
+<p *ngIf="isSpoil; else elseBlock" [ngClass]="{ 'secret': isSpoil }">Bambi est pas mort à la fin</p>
+
+<ng-template #elseBlock>Rien à voir</ng-template>
