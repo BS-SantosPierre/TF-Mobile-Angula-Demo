@@ -1,0 +1,19 @@
+<h2>Anime List</h2>
+
+<a routerLink="create">
+  <button>Add Anime</button>
+</a>
+
+<ul>
+  <li *ngFor="let anime of animes">
+    {{anime.title}}
+    <a [routerLink]="'/anime-list/' + anime.id">
+      <button>Voir Plus</button>
+    </a>
+    <button (click)="delete(anime.id)">Delete</button>
+  </li>
+</ul>
+
+<hr>
+
+<router-outlet></router-outlet>

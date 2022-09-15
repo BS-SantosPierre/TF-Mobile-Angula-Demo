@@ -1,0 +1,20 @@
+<form [formGroup]="myForm" (ngSubmit)="handleSubmit()">
+	<div>
+		<label for="title">Title:</label>
+		<input id="name" type="text" formControlName="title"/>
+	</div>
+
+  <div>
+		<label for="description">Description:</label>
+		<textarea id="description" type="text" formControlName="description">
+
+    </textarea>
+	</div>
+
+  <div>
+		<label for="author">Author:</label>
+		<input id="author" type="text" formControlName="author"/>
+	</div>
+
+	<button type="submit" [disabled]="!myForm.valid">Submit</button>
+</form>

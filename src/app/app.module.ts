@@ -24,6 +24,11 @@ import { ReactiveFormDemoComponent } from './demos/reactive-form-demo/reactive-f
 import { RecapComponent } from './exos/recap/recap.component';
 import { SpoilComponent } from './exos/recap/spoil/spoil.component';
 import { MenuComponent } from './exos/recap/menu/menu.component';
+import { AnimeListComponent } from './demos/anime-list/anime-list.component';
+import { ShowComponent } from './demos/anime-list/show/show.component';
+import { CreateComponent } from './demos/anime-list/create/create.component';
+import { EditComponent } from './demos/anime-list/edit/edit.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +53,11 @@ import { MenuComponent } from './exos/recap/menu/menu.component';
     RecapComponent,
     SpoilComponent,
     MenuComponent,
+    AnimeListComponent,
+    ShowComponent,
+    CreateComponent,
+    EditComponent,
+    NotFoundComponent,
   ],
   imports: [
     BrowserModule,
